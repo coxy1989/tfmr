@@ -16,5 +16,4 @@ class AttentionTests(unittest.TestCase):
         pe = attention.PositionalEncoding.positional_encoding(4, 6)
         self.assertTrue(pe[0,0,0] == 0)
         self.assertTrue(pe[0,0,1] == 1)
-        self.assertTrue(pe[0,0,2] == 1)
 
